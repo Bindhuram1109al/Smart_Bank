@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Bank - ERC20 Token Swap</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Smart Bank - ERC20 Token Swap</h1>
+        <div id="tokenCreation">
+            <h2>Create ERC20 Token</h2>
+            <label for="tokenName">Token Name:</label>
+            <input type="text" id="tokenName" placeholder="Enter token name">
+            <label for="tokenSymbol">Token Symbol:</label>
+            <input type="text" id="tokenSymbol" placeholder="Enter token symbol">
+            <label for="totalSupply">Total Supply:</label>
+            <input type="number" id="totalSupply" placeholder="Enter total supply">
+            <button id="createTokenBtn">Create Token</button>
+        </div>
+        <div id="tokenInfo">
+            <h2>Token Information</h2>
+            <p id="tokenNameDisplay"></p>
+            <p id="tokenSymbolDisplay"></p>
+            <p id="totalSupplyDisplay"></p>
+            <button id="getTokenInfoBtn">Get Token Info</button>
+        </div>
+        <div id="swapToken">
+            <h2>Swap Token for Ether</h2>
+            <button id="swapTokenBtn">Swap Token</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
